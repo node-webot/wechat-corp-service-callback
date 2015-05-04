@@ -1,0 +1,36 @@
+{
+  "name": "wechat-corp-service-callback",
+  "version": "0.0.1",
+  "description": "A callback interface for wechat 3rd corp service.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/node-webot/wechat-corp-service-callback.git"
+  },
+  "author": "NickMa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/node-webot/wechat-corp-service-callback/issues"
+  },
+  "homepage": "https://github.com/node-webot/wechat-corp-service-callback",
+  "dependencies": {
+    "xml2js": "0.4.4",
+    "ejs": ">=1.0.0",
+    "wechat-crypto": "0.0.2"
+  },
+  "devDependencies": {
+    "supertest": "*",
+    "mocha": "*",
+    "expect.js": "*",
+    "connect": "2.5.*",
+    "travis-cov": "*",
+    "coveralls": "*",
+    "mocha-lcov-reporter": "*",
+    "muk": "*",
+    "rewire": "*",
+    "istanbul": "*"
+  }
+}
